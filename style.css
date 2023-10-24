@@ -1,0 +1,133 @@
+body{
+    width: 70%;
+    margin:0 auto ;
+}
+
+#content{
+    max-width: 888px;
+	width: 80%;
+    margin: 0 auto;
+}
+#imageright{
+	margin-left: 20px;
+    float: right;
+    max-width: 200px;
+    width: auto;
+    border-radius: 20px; 
+    border: 1px solid forestgreen;
+}
+#imageright img{
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+
+#imagerighter{
+    display: none;
+    margin-left: 20px;
+    float: right;
+    max-width: 200px;
+    width: auto;
+    border: forestgreen solid 1px;
+    border-radius: 20px;
+}
+#imagerighter img{
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+
+#imageleft{
+	margin-right: 40px;
+    float: left;
+    margin-bottom: 80px;
+    border: forestgreen solid 1px;
+    border-radius: 20px;
+    width: auto;
+    max-width: 300px;
+}
+#imageleft img{
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+#imagelefter{
+    display: none;
+    margin-left: 20px;
+    float: right;
+    max-width: 300px;
+    width: auto;
+    border: forestgreen solid 1px;
+    border-radius: 20px; 
+}
+#imagelefter img{
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+
+.kepszoveg{
+	text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    color: forestgreen;
+    text-transform: uppercase;
+}
+h2{
+    color: forestgreen;
+    text-transform: uppercase;
+}
+
+p, ul{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+.jobbra{
+    float: right;
+}
+.balra{
+    float: left;
+}
+
+.felso{
+    height: 20%;
+    
+}
+sub{
+    text-decoration: none;
+    }
+
+
+@media only screen and (max-width: 600px) {
+    #imageleft{
+        display: none;
+        float: none;
+        margin: 0 auto;
+    }
+    #imagelefter{
+        display: block;
+        margin: 0 auto;
+    }
+    #imageright{
+        display: none;
+        float: none;
+        margin: 0 auto;
+    }
+    #imagerighter{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
